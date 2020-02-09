@@ -562,7 +562,7 @@ Frame**
 **9 Mount the IMU**
 
 1.  Solder male header pins to the IMU board. Arrange them with long
-    ends on the labelled side of the board. Pins for 3V3, GND, SCL, and
+    ends on the labelled side of the board. Pins for VIN, GND, SCL, and
     SDA will be used for I2C communication.
 2.  Mount the IMU board with header pins facing towards the center of
     the electronics bay (Kaya\_Electronics\_Bay) using 2 M2 x 6mm
@@ -583,7 +583,7 @@ Frame**
 
 **11 Connect IMU Wiring**
 
-1.  Attach female-to-female electrical jumper wires to IMU leads (3V3,
+1.  Attach female-to-female electrical jumper wires to IMU leads (VIN,
     GND, SCL, and SDA). Make note of what color wires are attached to
     each pin, these will later be connected to the Jetson Nano GPIO
     pins.
